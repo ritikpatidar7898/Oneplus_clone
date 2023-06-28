@@ -139,6 +139,7 @@ nav ul {
 }
 .oneplus{
   width: 40%;
+  height: 400px;
 }
 .oneplus h1{
   font-size: 40px;
@@ -147,10 +148,12 @@ nav ul {
 .oneplus h2{
   font-weight: 300;
 }
-
+.hphoto{
+ height: 210px;
+}
 
 .hphoto img{
-  height: 200px;
+  height: 100%;
   visibility: hidden;
 }
 .oneplus .btn-div button:hover{
@@ -248,7 +251,7 @@ nav ul {
 }
 .one{
   height: 500px;
-  width:280px;
+  width:260px;
   margin: 20px;
   display: flex;
   /* flex-wrap: wrap; */
@@ -399,7 +402,7 @@ padding: 00px 50px;
 }
 .oxygen{
   height: 400px;
-  width: 600px;
+  width: 540px;
   margin: 50px 00px;
   display: flex;
   flex-direction: row;
@@ -552,7 +555,7 @@ padding: 00px 50px;
 }
 .arrow button{
   height: 50px;
-  width: 300px;
+  width: 280px;
   background-color: white;
   font-size: 20px;
   font-weight: 300;
@@ -584,16 +587,17 @@ padding: 00px 50px;
 }
 .bcard{
   height: 290px;
-  width: 570px;
+  width: 550px;
   background-image: url(./assets/black1.webp);
   background-size: cover;
   background-position: center;
   padding: 20px;
   margin: 10px 00px;
+  margin-right: 10px;
 }
 .bcard1{
   height: 290px;
-  width: 570px;
+  width: 550px;
   background-image: url(./assets/black2.jpg);
   background-size: cover;
   background-position: center;
@@ -615,6 +619,9 @@ padding: 00px 50px;
   color: white;
   font-size: 20px;
   border: 1px solid rgb(98, 98, 98);
+}
+.black button:hover{
+  transform: scale(104%);
 }
 .black h2{
   font-size: 28px;
@@ -640,7 +647,7 @@ padding: 00px 50px;
   list-style: none;
   color: rgb(147, 146, 146);
   font-size: 15px;
-  margin: 30px 50px;
+  margin: 30px 30px;
 }
 .flist ul li{
   line-height: 35px;
@@ -740,8 +747,8 @@ padding: 00px 50px;
   }
   .hphoto img{
     visibility: visible;
-    height: 300px;
-    width: 500px;
+    /* height: 300px;
+    width: 500px; */
   }
   .phonephoto{
     display: none;
